@@ -4,10 +4,10 @@ using namespace std;
 int n = 100;
 int main()
 {
-    char arr[n];
+    char arr[n];  // First committ
     int length = 0;
 
-    cout << "Enter a word : ";
+    cout << "Enter a word : ";  
 
     cin >> arr;
     for (length = 0; length < n && arr[length] != '\0'; length++){}
